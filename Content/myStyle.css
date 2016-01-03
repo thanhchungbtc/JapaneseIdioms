@@ -1,0 +1,29 @@
+﻿
+.fixed-panel {
+    min-height: 400px;
+    max-height: 400px;
+    overflow-y: scroll;
+}
+
+.form-group {
+    margin-right: -15px;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #eff2f7;
+}
+.form-horizontal .form-group:last-child {
+    border-bottom: none;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+#overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+   
+    background: #556b2f;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
